@@ -1,0 +1,21 @@
+{
+  "name": "cas_app2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cas": "0.0.3",
+    "cas-authentication": "0.0.8",
+    "cas-client-node": "^1.0.8",
+    "express": "^4.15.4",
+    "express-session": "^1.15.5",
+    "node-cas": "^1.0.1",
+    "samlify": "^2.2.0"
+  }
+}
